@@ -1,0 +1,28 @@
+# .gitignore
+
+# Environment files
+.env
+.env.local
+.env.*.local
+.env.development
+.env.staging
+.env.production
+
+# But keep the example file
+!.env.example
+
+# Python environment
+venv/
+*.pyc
+__pycache__/
+
+# IDE files
+.vscode/
+.idea/
+
+# Vector store files
+data/embeddings/
+
+# Logs
+*.log
+logs/
