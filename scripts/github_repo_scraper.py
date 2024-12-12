@@ -1,8 +1,8 @@
 import requests
 import json
 
-# Replace with your GitHub Personal Access Token
-GITHUB_TOKEN = "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"
+# read token from .env file
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 
 # API headers
 HEADERS = {
