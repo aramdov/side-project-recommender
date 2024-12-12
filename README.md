@@ -16,6 +16,7 @@ Our system leverages:
 ### Prerequisites
 - Python 3.9+
 - A Pinecone API key
+- LangChain framework for RetrievalQA.
 - An Anthropic API key
 - Future version can use OpenAI API key.
 
@@ -28,6 +29,7 @@ cd project-recommender
 # Create and activate virtual environment
 python -m venv venv
 source venv/bin/activate  # On Windows: .\venv\Scripts\activate
+# On windows with bash: source venv/Scripts/activate
 
 # Install dependencies
 pip install -r requirements.txt
@@ -35,6 +37,10 @@ pip install -r requirements.txt
 # Set up environment variables
 cp .env.example .env
 # Edit .env with your API keys and configuration
+
+# Source environment variables with autoenv
+pip install autoenv
+
 ```
 
 ### Running the Application
@@ -98,4 +104,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-*Built with ❤️ to help developers find their next exciting project*
+*Built by developers to help find their next exciting project*

@@ -12,7 +12,7 @@
 !.env.example
 
 # Python environment
-venv/
+tumo-venv/
 *.pyc
 __pycache__/
 
@@ -26,3 +26,6 @@ data/embeddings/
 # Logs
 *.log
 logs/
+
+# Results of scripts
+github_search_results.json

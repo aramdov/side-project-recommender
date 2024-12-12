@@ -1,6 +1,9 @@
 import streamlit as st
-from config.config_manager import get_settings
+import sys
+import os
+
 from backend.core.vector_store import VectorStore
+from config.config_manager import get_settings
 from frontend.components.form_components import (
     render_file_upload,
     render_interest_form
