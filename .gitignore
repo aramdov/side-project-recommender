@@ -29,3 +29,4 @@ logs/
 
 # Results of scripts
 github_search_results.json
+scripts/sample_repos/*
